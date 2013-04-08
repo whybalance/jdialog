@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99998;
+    z-index: 999990;
     width: 100%;
     height: 100%;
     background: #666;
@@ -12,7 +12,7 @@
 }
 .jdialog {
     position: fixed;
-    z-index: 99999;
+    z-index: 999991;
     _position: absolute;
 }
 .jdialog .jdialog-border {
@@ -20,9 +20,9 @@
     top: -10px;
     left: -10px;
     z-index: -1;
-    border: 10px solid #000;
+    border: 10px solid #000000;
     border-radius: 5px;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000000;
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
