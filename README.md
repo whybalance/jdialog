@@ -1,2 +1,2 @@
-jselect
+jDialog
 =======
