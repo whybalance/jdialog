@@ -1,0 +1,34 @@
+@index: 999990;
+@color: #000;
+.jdialog-screen{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:@index;
+    width:100%;
+    height:100%;
+    background:#666;
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+    _position: absolute;
+}
+
+.jdialog{
+    position:fixed;
+    z-index:@index+1;
+    _position: absolute;
+    .jdialog-border{
+        position: absolute;
+        top:-10px;
+        left:-10px;
+        z-index:-1;
+        border:10px solid @color;
+        border-radius: 5px;
+        box-shadow:0 0 10px @color;
+        opacity: 0.6;
+        filter:alpha(opacity=60);
+    }
+    .jdialog-container{
+        background: #fff;
+    }
+}
