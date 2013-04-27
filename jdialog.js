@@ -1,14 +1,13 @@
 (function($, window, document, undefined) {
-  'use strict';
+	'use strict';
 	var _body = $(document.body);
 	var _screen;
 	var _dialogList = {};
 	//fuckie6
-	var timer;
-
+	var _timer;
 	function fixIE6(){
-		clearTimeout(timer);
-		timer = setTimeout(function(){
+		clearTimeout(_timer);
+		_timer = setTimeout(function(){
 			$('.jdialog:visible').each(function() {
 				var me = $(this);
 				me.animate({
@@ -69,14 +68,14 @@
 				'left': ($(window).width() - dialog.width()) / 2
 			});
 			border.css({
-				'width': container.width(),
-				'height': container.height()
+				'width': container.outerWidth(),
+				'height': container.outerHeight()
 			});
 			return this;
 		}
 	};
 
-	$.dialog = {
+	$.jdialog = {
 		create: function(content, name) {
 			name = name || 'default';
 			var dialog = _dialogList[name];
