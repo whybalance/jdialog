@@ -1,10 +1,11 @@
 jQuery-dialog 0.1.0
 这是一个简单好用的jQueryDialog效果.
 =======
+####Demo : http://jsbin.com/eqacij/9/
+
 ##依赖
 jquey-1.9.1 (老版本我没试过 估计1.7+应该都可以.)
-
-
+         
 ##调用方式:
 ####加载CSS文件和JS文件后:
     <script>
