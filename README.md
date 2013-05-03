@@ -1,7 +1,9 @@
 jQuery-dialog 0.1.0
-这是一个简单好用的jQueryDialog效果.
 =======
-####Demo : http://jsbin.com/efepis/1/ 
+
+这是一个简单好用的jQueryDialog效果.
+
+Demo : http://jsbin.com/efepis/1/ 
 
 ##依赖
 jquey-1.9.1 (老版本我没试过 估计1.7+应该都可以.)
