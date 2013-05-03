@@ -26,4 +26,4 @@ jquey-1.9.1 (老版本我没试过 估计1.7+应该都可以.)
     
 ##主对象接口:
     $.jdialog.create(content,name); 创建一个新的dialog
-    $.get(name); 根据name标识重新获得实例对象
+    $.jdialo.get(name); 根据name标识重新获得实例对象
